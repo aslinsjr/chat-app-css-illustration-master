@@ -1,0 +1,84 @@
+* { 
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+
+.violet-container {
+    width: 600px;
+    height: 500px;
+    border-radius: 0 0 160px 160px;
+    background: rgb(191,64,255);
+}
+
+.phone-container {
+    width: 400px;
+    height: 400px;
+}
+
+.phone-inner {
+    padding: 0.5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.top-box {
+    width: 75%;
+    height: 1.5rem;
+    background-color: white;
+    margin: 0 auto -15px auto;
+}
+
+.avatar-and-photo {
+    width: 100%;
+    height: 4rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(191,64,255);
+    color: white;
+}
+
+.photo {
+    display: flex;
+    align-items: center;
+   
+    
+}
+
+.photo img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: solid 2px white;
+}
+
+.chat-box {
+    width: 100%;
+}
+
+.chat-img {
+    width: 50px;
+    height: 50px;
+}
+
+.message-box {
+    display: flex;
+}
+
+.text-container {
+
+}
+    
+.attribution { font-size: 11px; 
+    text-align: center; 
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
