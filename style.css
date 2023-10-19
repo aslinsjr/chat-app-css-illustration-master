@@ -272,9 +272,12 @@ h1 {
 /* Responsive */
 
 @media screen and (max-width:500px) {
+    body {
+        max-width: 375px;
+    }
+    
     .container {
         flex-direction: column;
-        width: 100%;
     }
 
     .violet-container1 {
@@ -285,8 +288,11 @@ h1 {
     }
 
     .violet-container2 {
-        left: 200px;
+        left: 130px;
         top: -220px;
+        height: 500px;
+        width: 115px;
+        border-radius: 195px 0 0 0;
     }
 
     .phone-container {
@@ -296,14 +302,17 @@ h1 {
 
     .right-container {
         flex-direction: column;
+        height: 500px;
+        margin-bottom: -230px;
     }
 
     .text-container {
         margin: 0 2rem;
         text-align: center;
+        
     }
 
     footer {
-        margin-top: -220px;
+        
     }
 }
